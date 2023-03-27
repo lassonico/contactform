@@ -81,8 +81,8 @@ function App() {
         inputname.focus()
       }, 4000);
     }
-
-    fetch("https://formspree.io/f/xknavpld", {
+    // Es el provedor de mail gratuito.
+    fetch("https://formspree.io/f/ID_de_Formspree", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
